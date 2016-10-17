@@ -1,7 +1,7 @@
 require 'active_support/core_ext/string/inflections'
 require 'active_support/core_ext/module/delegation'
 
-module BigqueryBackwardCompatibilityTable
+module BigqueryCompatibilityView
   class Migrator
     class Error < StandardError
     end

@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bigquery_backward_compatibility_table/version'
+require 'bigquery_compatibility_view/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "bigquery_backward_compatibility_table"
-  spec.version       = BigqueryBackwardCompatibilityTable::VERSION
+  spec.name          = "bigquery_compatibility_view"
+  spec.version       = BigqueryCompatibilityView::VERSION
   spec.authors       = ["yamotonalds"]
   spec.email         = ["yamotonalds@gmail.com"]
 

@@ -1,2 +1,2 @@
-class Migration1 < BigqueryBackwardCompatibilityTable::Migration
+class Migration1 < BigqueryCompatibilityView::Migration
 end

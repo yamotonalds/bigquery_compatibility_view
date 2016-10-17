@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe BigqueryBackwardCompatibilityTable do
+describe BigqueryCompatibilityView do
   it 'has a version number' do
-    expect(BigqueryBackwardCompatibilityTable::VERSION).not_to be nil
+    expect(BigqueryCompatibilityView::VERSION).not_to be nil
   end
 
   it 'does something useful' do
